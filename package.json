@@ -1,0 +1,36 @@
+{
+  "name": "sim-k-frontend",
+  "version": "1.0.0",
+  "description": "Sistem Informasi K",
+  "main": "index.js",
+  "repository": "https://github.com/dharmatin/sim-k-frontend.git",
+  "author": "deni dharmatin <dharmatin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "pack": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.2",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-redux": "^7.0.6",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "jest": "^24.7.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  }
+}
